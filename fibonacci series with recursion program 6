@@ -6,7 +6,7 @@ void print fibonacci(int n){
 		n1=n2;
 		n2=n3;
 		printf("%d",n3);
-		print fibonacci(n-1);
+		printf fibonacci(n-1);
 	}
 }
 int main(){
